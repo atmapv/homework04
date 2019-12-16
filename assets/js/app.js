@@ -44,8 +44,6 @@ var trivia = {
     q6: 'Aldrich Park',
     q7: '1965'
   },
-
-  
   // trivia methods
   // method to initialize game
   startGame: function(){
@@ -156,6 +154,9 @@ var trivia = {
       resultId = setTimeout(trivia.guessResult, 1000);
       $('#results').html('<h3>Correct Answer!</h3>');
     }
+
+
+    
     // else the user picked the wrong option, increment incorrect
     else{
       // turn button clicked red for incorrect
